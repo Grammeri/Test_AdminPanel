@@ -81,4 +81,10 @@ export const NavProfile = ({signOut}) => {
   );
 }
 
-export default connect(null, {signOut})(NavProfile)
+
+
+const mapStateToProps = state => ({
+    user: state.currentUser
+});
+
+export default connect(mapStateToProps, { signOut })(NavProfile);

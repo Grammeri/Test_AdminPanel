@@ -1,3 +1,4 @@
+// EditProfile.js
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Form, Input, Spin } from 'antd';
@@ -8,22 +9,29 @@ const Profile = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
+        let isMounted = true;
+        const fetchUser = async () => {
+            try {
+                const response = await fetch(`https://jsonplaceholder.typicode.com/users`);
+                const data = await response.json();
+                const foundUser = data.find(user => user.username === username);
+                if (isMounted) {
+                    setUser(foundUser);
+                    setLoading(false);
+                }
+            } catch (error) {
+                console.error("Error fetching user:", error);
+                if (isMounted) {
+                    setLoading(false);
+                }
+            }
+        };
+
         fetchUser();
-    }, []);
+        return () => { isMounted = false };
+    }, [username]);
 
-    const fetchUser = async () => {
-        try {
-            const response = await fetch(`https://jsonplaceholder.typicode.com/users?username=${username}`);
-            const data = await response.json();
-            setUser(data[0]);
-            setLoading(false);
-        } catch (error) {
-            console.error("Error fetching user:", error);
-            setLoading(false);
-        }
-    };
-
-    if (loading) {
+    if (loading || !user) {
         return <Spin size="large" />;
     }
 
