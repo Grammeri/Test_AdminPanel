@@ -1,0 +1,40 @@
+{
+  "files": {
+    "static/js/0.64f901e3.chunk.js": "/Test_AdminPanel/static/js/0.64f901e3.chunk.js",
+    "static/js/0.64f901e3.chunk.js.map": "/Test_AdminPanel/static/js/0.64f901e3.chunk.js.map",
+    "static/js/1.bc3dd6ac.chunk.js": "/Test_AdminPanel/static/js/1.bc3dd6ac.chunk.js",
+    "static/js/1.bc3dd6ac.chunk.js.map": "/Test_AdminPanel/static/js/1.bc3dd6ac.chunk.js.map",
+    "main.js": "/Test_AdminPanel/static/js/main.a4e22c08.chunk.js",
+    "main.js.map": "/Test_AdminPanel/static/js/main.a4e22c08.chunk.js.map",
+    "runtime-main.js": "/Test_AdminPanel/static/js/runtime-main.add80fa0.js",
+    "runtime-main.js.map": "/Test_AdminPanel/static/js/runtime-main.add80fa0.js.map",
+    "static/js/4.5ec7e47b.chunk.js": "/Test_AdminPanel/static/js/4.5ec7e47b.chunk.js",
+    "static/js/4.5ec7e47b.chunk.js.map": "/Test_AdminPanel/static/js/4.5ec7e47b.chunk.js.map",
+    "static/js/5.327040cc.chunk.js": "/Test_AdminPanel/static/js/5.327040cc.chunk.js",
+    "static/js/5.327040cc.chunk.js.map": "/Test_AdminPanel/static/js/5.327040cc.chunk.js.map",
+    "static/js/6.82f7d273.chunk.js": "/Test_AdminPanel/static/js/6.82f7d273.chunk.js",
+    "static/js/6.82f7d273.chunk.js.map": "/Test_AdminPanel/static/js/6.82f7d273.chunk.js.map",
+    "static/js/7.0c1ef1e2.chunk.js": "/Test_AdminPanel/static/js/7.0c1ef1e2.chunk.js",
+    "static/js/7.0c1ef1e2.chunk.js.map": "/Test_AdminPanel/static/js/7.0c1ef1e2.chunk.js.map",
+    "static/js/8.cae3be8c.chunk.js": "/Test_AdminPanel/static/js/8.cae3be8c.chunk.js",
+    "static/js/8.cae3be8c.chunk.js.map": "/Test_AdminPanel/static/js/8.cae3be8c.chunk.js.map",
+    "static/js/9.14894265.chunk.js": "/Test_AdminPanel/static/js/9.14894265.chunk.js",
+    "static/js/9.14894265.chunk.js.map": "/Test_AdminPanel/static/js/9.14894265.chunk.js.map",
+    "static/js/10.3ead2ba5.chunk.js": "/Test_AdminPanel/static/js/10.3ead2ba5.chunk.js",
+    "static/js/10.3ead2ba5.chunk.js.map": "/Test_AdminPanel/static/js/10.3ead2ba5.chunk.js.map",
+    "static/js/11.67197e3b.chunk.js": "/Test_AdminPanel/static/js/11.67197e3b.chunk.js",
+    "static/js/11.67197e3b.chunk.js.map": "/Test_AdminPanel/static/js/11.67197e3b.chunk.js.map",
+    "static/js/12.4c587574.chunk.js": "/Test_AdminPanel/static/js/12.4c587574.chunk.js",
+    "static/js/12.4c587574.chunk.js.map": "/Test_AdminPanel/static/js/12.4c587574.chunk.js.map",
+    "static/js/13.a8cdbe4d.chunk.js": "/Test_AdminPanel/static/js/13.a8cdbe4d.chunk.js",
+    "static/js/13.a8cdbe4d.chunk.js.map": "/Test_AdminPanel/static/js/13.a8cdbe4d.chunk.js.map",
+    "index.html": "/Test_AdminPanel/index.html",
+    "static/js/0.64f901e3.chunk.js.LICENSE.txt": "/Test_AdminPanel/static/js/0.64f901e3.chunk.js.LICENSE.txt",
+    "static/js/4.5ec7e47b.chunk.js.LICENSE.txt": "/Test_AdminPanel/static/js/4.5ec7e47b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.add80fa0.js",
+    "static/js/4.5ec7e47b.chunk.js",
+    "static/js/main.a4e22c08.chunk.js"
+  ]
+}
